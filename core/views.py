@@ -25,3 +25,7 @@ def divisao(request, num, number):
 
 def mod(request, num, number):
     return HttpResponse(f'{num} % {number} = {num%number}')
+
+
+def expoente(request, num, number):
+    return HttpResponse(f'{num} ** {number} = {num**number}')

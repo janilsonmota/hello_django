@@ -24,5 +24,6 @@ urlpatterns = [
     path('subtracao/<int:num>/<int:number>', views.subtracao),
     path('multiplicacao/<int:num>/<int:number>', views.multiplicacao),
     path('divisao/<int:num>/<int:number>', views.divisao),
-    path('mod/<int:num>/<int:number>', views.mod)
+    path('mod/<int:num>/<int:number>', views.mod),
+    path('expoente/<int:num>/<int:number>', views.expoente)
 ]
