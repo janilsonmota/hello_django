@@ -21,3 +21,7 @@ def multiplicacao(request, num, number):
 
 def divisao(request, num, number):
     return HttpResponse(f'{num} / {number} = {num/number}')
+
+
+def mod(request, num, number):
+    return HttpResponse(f'{num} % {number} = {num%number}')
